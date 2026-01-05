@@ -88,13 +88,14 @@ export default function EventDrawer({ event, onClose }) {
             <Meta label="Time" value={event.time} />
             <Meta label="Location" value={event.location} />
             <Meta label="Status" value={event.status} />
+            <Meta label="Entry Fee" value={event.entryfee} />
           </div>
 
-          {/* ABOUT */}
+          {/* ABOUT */} {/* Participants */}
           <section>
             <h3 className="text-xl font-bold mb-3">About Event</h3>
             <p className="text-white/70 leading-relaxed">
-              {event.description}
+              {event.description} <span className="font-bold mb-3"> Participants : </span> {event.participants}
             </p>
           </section>
 
