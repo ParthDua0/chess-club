@@ -6,17 +6,46 @@ import Footer from '../components/Footer';
 const LeaderboardPage = () => {
   // Mock Data - In a real app, fetch this from your backend and ensure it's sorted by winPct
   const leaderboardData = [
-    { id: 1, name: "Alex Harmon", rank: 1, winPct: "94.2%", wins: 145, tournaments: 12 },
-    { id: 2, name: "Bethany Zhu", rank: 2, winPct: "89.5%", wins: 112, tournaments: 10 },
-    { id: 3, name: "Charlie Watts", rank: 3, winPct: "82.1%", wins: 98, tournaments: 15 },
-    { id: 4, name: "David Chen", rank: 4, winPct: "76.0%", wins: 85, tournaments: 8 },
-    { id: 5, name: "Eva Morales", rank: 5, winPct: "71.8%", wins: 64, tournaments: 11 },
-    { id: 6, name: "Frankie Stone", rank: 6, winPct: "68.5%", wins: 52, tournaments: 6 },
-    { id: 7, name: "Grace Lee", rank: 7, winPct: "65.0%", wins: 45, tournaments: 9 },
-    { id: 8, name: "Henry Ford", rank: 8, winPct: "55.0%", wins: 32, tournaments: 4 },
-    { id: 9, name: "Ivy Tan", rank: 9, winPct: "48.0%", wins: 28, tournaments: 7 },
-    { id: 10, name: "Jack Ryan", rank: 10, winPct: "42.0%", wins: 15, tournaments: 3 },
-  ];
+  { id: 1, name: "Pratham", rank: 1, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 2, name: "Akash", rank: 2, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 3, name: "Nikunj", rank: 3, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 4, name: "Aditya Chauhan", rank: 4, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 5, name: "Aditya Maurya", rank: 5, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 6, name: "Aditi", rank: 6, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 7, name: "Indrani", rank: 7, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 8, name: "Shivendra", rank: 8, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 9, name: "Aneeka", rank: 9, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 10, name: "Shambhavi", rank: 10, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 11, name: "Dushyant", rank: 11, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 12, name: "Sarthak", rank: 12, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 13, name: "Ronak", rank: 13, winPct: "0%", wins: 0, tournaments: 6 },
+  { id: 14, name: "Saksham", rank: 14, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 15, name: "Shivendra Mohan", rank: 15, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 16, name: "Ravi", rank: 16, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 17, name: "Vaibhav", rank: 17, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 18, name: "Mohd Ayan", rank: 18, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 19, name: "Aman", rank: 19, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 20, name: "Ayaan", rank: 20, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 21, name: "Vipul", rank: 21, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 22, name: "Abhinav", rank: 22, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 23, name: "Aayush", rank: 23, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 24, name: "Rishabh", rank: 24, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 25, name: "Krishna", rank: 25, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 26, name: "Mohd Saad", rank: 26, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 27, name: "Himanshu", rank: 27, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 28, name: "Parth", rank: 28, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 29, name: "Anant", rank: 29, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 30, name: "Arnav", rank: 30, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 31, name: "Dev Pratap", rank: 31, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 32, name: "Devansh", rank: 32, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 33, name: "Harsh", rank: 33, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 34, name: "Prarabdh", rank: 34, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 35, name: "Piyush", rank: 35, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 36, name: "Ajil", rank: 36, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 37, name: "Shivam", rank: 37, winPct: "0%", wins: 0, tournaments: 0 },
+  { id: 38, name: "Utkarsh", rank: 38, winPct: "0%", wins: 0, tournaments: 0 }
+];
+
 
   // Helper function to add icons/colors to top 3 ranks
   const getRankDisplay = (rank) => {
@@ -118,7 +147,7 @@ const LeaderboardPage = () => {
         
         {/* Footer Note */}
         <p className="text-gray-500 text-sm mt-4 text-right font-mono">
-          Last updated: Today at 14:00 IST
+          Last updated: Today at 18:00 IST
         </p>
       </div>
       {/* Footer */}
