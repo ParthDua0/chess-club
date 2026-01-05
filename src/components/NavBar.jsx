@@ -16,14 +16,16 @@ const Navbar = () => {
       <div className="max-w-[1200px] mx-auto px-6 h-20 flex items-center justify-between">
         
         {/* 1. Logo Section */}
-        <div className="flex items-center gap-4">
+        <NavLink 
+        to="/guest"
+        className="flex items-center gap-4">
           <div className="size-9 bg-white text-black rounded-lg flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.2)]">
             <ChessPawn className="w-5 h-5" />
           </div>
           <span className="font-display font-medium text-lg tracking-tight hidden sm:block text-white">
             University Chess Club
           </span>
-        </div>
+        </NavLink>
 
         {/* 2. Middle Navigation Links (Hidden on small mobile) */}
         <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
