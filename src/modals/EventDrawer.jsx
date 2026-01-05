@@ -83,21 +83,21 @@ export default function EventDrawer({ event, onClose }) {
         <div className="flex-1 overflow-y-auto px-8 py-6 space-y-10">
 
           {/* META */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-white/[0.03] p-6 rounded-xl">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 bg-white/[0.03] p-6 rounded-xl">
             <Meta label="Date" value={event.date} />
             <Meta label="Time" value={event.time} />
             <Meta label="Location" value={event.location} />
             <Meta label="Status" value={event.status} />
+            <Meta label="Entry Fee" value={event.entryfee} />
           </div>
 
-          {/* ABOUT */}
+          {/* ABOUT */} {/* Participants */}
           <section>
             <h3 className="text-xl font-bold mb-3">About Event</h3>
             <p className="text-white/70 leading-relaxed">
-              {event.description}
+              {event.description} <span className="font-bold mb-3"> Participants : </span> {event.participants}
             </p>
           </section>
-
           {/* PRIZES */}
           <section>
             <h3 className="text-xl font-bold mb-6">Final Prize Distribution</h3>

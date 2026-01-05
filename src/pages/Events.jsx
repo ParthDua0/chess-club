@@ -28,9 +28,10 @@ export default function Events() {
       runner1: "Prarabdh",
       runner2: "Piyush",
       prize: "₹1900",
-      location: "Indoor Stadium, GBU",
+      location: "Indoor Stadium",
       image: aug2025,
-      participants: 64,
+      participants: 38,
+      entryfee: "50 rs",
     },
   ];
 
