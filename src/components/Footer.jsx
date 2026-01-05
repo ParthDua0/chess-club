@@ -48,8 +48,8 @@ const Footer = () => {
 
     <div className="flex flex-col sm:flex-row gap-4 justify-between text-[11px] text-gray-500">
       <span>© 2026 GBU Chess Club</span>
-      <span className="uppercase tracking-widest opacity-60">
-        Member Dashboard
+      <span className="uppercase tracking-widest opacity-60 text-[15px]">
+        Designed and Developed by <span className='text-white'>@ParthDua</span>
       </span>
     </div>
 
