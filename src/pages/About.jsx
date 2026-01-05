@@ -151,25 +151,25 @@ function LeaderCard({ title, name, phone, email }) {
 function CoreTable() {
   const members = [
   { id: 1, name: "Aarushi Sangal", roll: "235UAI001", email: "sangalaarushi2004cef@gmail.com" },
-  { id: 2, name: "Abhishek Tomar", roll: "235UCS007", email: "bobby@chess.edu" },
-  { id: 3, name: "Anurag Sarkar", roll: "233UME003", email: "garry@chess.edu" },
-  { id: 4, name: "Aryan Gautam", roll: "245UEC008", email: "judit@chess.edu" },
-  { id: 5, name: "Kabir Yadav", roll: "245ICS030", email: "vishy@chess.edu" },
-  { id: 6, name: "Mohd. Ayan", roll: "245UCS123", email: "fabi@chess.edu" },
+  { id: 2, name: "Abhishek Tomar", roll: "235UCS007", email: "abhishek.tomar9099@gmail.com" },
+  { id: 3, name: "Anurag Sarkar", roll: "233UME003", email: "Anuragsarkar1809@gmail.com" },
+  { id: 4, name: "Aryan Gautam", roll: "245UEC008", email: "gautamaryan504@gmail.com" },
+  { id: 5, name: "Kabir Yadav", roll: "245ICS030", email: "kabiryadav2314@gmail.com" },
+  { id: 6, name: "Mohd. Ayan", roll: "245UCS123", email: "" },
   { id: 7, name: "Mohd. Naqui", roll: "235UCS083", email: "" },
-  { id: 8, name: "Piyush", roll: "256UBM023", email: "" },
+  { id: 8, name: "Piyush", roll: "256UBM023", email: "piyush.singh.gm711@gmail.com" },
   { id: 9, name: "Piyush Arora", roll: "235UCS094", email: "" },
-  { id: 10, name: "Prarabdh Pathak", roll: "234UHA019", email: "" },
+  { id: 10, name: "Prarabdh Pathak", roll: "234UHA019", email: "pathakprarabdh30@gmail.com" },
   { id: 11, name: "Pratham Singh", roll: "236UBM056", email: "" },
-  { id: 12, name: "Roshan Baburao Ingle", roll: "255PCA028", email: "" },
+  { id: 12, name: "Roshan Baburao Ingle", roll: "255PCA028", email: "roshan766689@gmail.com" },
   { id: 13, name: "Shambhavi Singh", roll: "234IBA009", email: "" },
   { id: 14, name: "Shivam Sharma", roll: "245ICS047", email: "" },
-  { id: 15, name: "Shivendra Singh", roll: "246UBM021", email: "" },
-  { id: 16, name: "Toshan", roll: "245ICS049", email: "" },
+  { id: 15, name: "Shivendra Singh", roll: "246UBM021", email: "shivendraxsingh@gmail.com" },
+  { id: 16, name: "Toshan", roll: "245ICS049", email: "ptoshant@gmail.com" },
   { id: 17, name: "Utkarsh Mishra", roll: "245UEE010", email: "" },
-  { id: 18, name: "Vernit Goyal", roll: "235ICS061", email: "" },
-  { id: 19, name: "Vedika Dwivedi", roll: "235UCC032", email: "" },
-  { id: 20, name: "Vikrant Chaudhary", roll: "235UCS125", email: "" }
+  { id: 18, name: "Vernit Goyal", roll: "235ICS061", email: "vernitgoyal76@gmail.com" },
+  { id: 19, name: "Vedika Dwivedi", roll: "235UCC032", email: "vedikadwivedi66@gmail.com" },
+  { id: 20, name: "Vikrant Chaudhary", roll: "235UCS125", email: "vikrantsja@gmail.com" }
 ];
 
   return (
