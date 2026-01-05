@@ -72,8 +72,8 @@ export default function About() {
           <LeaderCard
             title="Secretary"
             name="Nikunj Bhardwaj"
-            phone="+1 (555) 987-6543"
-            email="sec@chessclub.edu"
+            phone="+91 9560382800"
+            email="nikunjbhardwaj2006@gmail.com"
           />
         </Section>
 
