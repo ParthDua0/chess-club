@@ -83,7 +83,7 @@ export default function EventDrawer({ event, onClose }) {
         <div className="flex-1 overflow-y-auto px-8 py-6 space-y-10">
 
           {/* META */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-white/[0.03] p-6 rounded-xl">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 bg-white/[0.03] p-6 rounded-xl">
             <Meta label="Date" value={event.date} />
             <Meta label="Time" value={event.time} />
             <Meta label="Location" value={event.location} />
