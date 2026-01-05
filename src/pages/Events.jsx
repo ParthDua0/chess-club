@@ -30,7 +30,8 @@ export default function Events() {
       prize: "₹1900",
       location: "Indoor Stadium, GBU",
       image: aug2025,
-      participants: 64,
+      participants: 38,
+      entryfee: "50 rs",
     },
   ];
 
